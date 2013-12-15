@@ -1,6 +1,6 @@
 // based on https://github.com/dobtco/jquery-resizable-columns
 angular.module('ngTableResizableColumns', [])
-.directive('ng-table-resizable-columns', function() {
+.directive('ngTableResizableColumns', function() {
 
     var parseWidth = function(node) {
         return parseFloat(node.style.width.replace('%', ''));

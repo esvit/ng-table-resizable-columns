@@ -12,8 +12,6 @@ module.exports = (grunt) ->
             working:
                 src: [
                     'ng-table-resizable-columns.*'
-                    './.temp/views'
-                    './.temp/'
                 ]
 
         uglify:
